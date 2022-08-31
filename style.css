@@ -1,0 +1,75 @@
+.banner{
+    background-image: url(images/banner-background.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+/* .banner-image img{
+    height: 80%;
+    width: 60%;
+} */
+.nav-link a:hover{
+    color: red;
+}
+.banner-head, .joinus-head, .learn-head, .join-now-head, .training-head{
+    color: #484f5b;
+    font-size: 70px;
+    margin-top: 150px;
+}
+.uni-button{
+    background-color: #e6c8c3;
+    color: #484f5b;
+    font-weight: 700;
+}
+@media only screen and (max-width:768px){
+    .banner-head, .joinus-head, .learn-head, .join-now-head, .training-head {
+        color: #484f5b;
+        font-size: 50px;
+        margin-top: 15px;
+    }
+ }
+.joinus{
+    background-image: url(images/resize-1661943016521879247joinus.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: #484f5b;
+}
+.program-data h4{
+    color: brown;
+}
+.yoga-img img{
+    margin-top: 80px !important;
+}
+.joinnow{
+    background-color: #f0efeb;
+}
+.training{
+    background-color: #e5ccc6;
+}
+.social-icons a{
+    color: #484f5b;
+    font-size: 30px;
+}
+.get-in-touch{
+    background-color:gainsboro;
+}
+input, textarea{
+    background-color: #efefef !important;
+    border: 1px solid !important;
+}
+.footer{
+    background-color: #484f5b;
+}
+.footer h3, .footer p, .footer h4, .footer li{
+    color: #fff!important;
+}
+.footer-data a{
+    text-decoration: none;
+    color: #fff;
+}
