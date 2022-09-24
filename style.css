@@ -1,6 +1,6 @@
 .banner{
     background-image: url(images/banner-background.png);
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,23 +16,19 @@
 .banner-head, .joinus-head, .learn-head, .join-now-head, .training-head{
     color: #484f5b;
     font-size: 70px;
-    margin-top: 150px;
+    margin-top: 125px;
+}
+.center{
+    text-align: justify !important;
 }
 .uni-button{
     background-color: #e6c8c3;
     color: #484f5b;
     font-weight: 700;
 }
-@media only screen and (max-width:768px){
-    .banner-head, .joinus-head, .learn-head, .join-now-head, .training-head {
-        color: #484f5b;
-        font-size: 50px;
-        margin-top: 15px;
-    }
- }
 .joinus{
     background-image: url(images/resize-1661943016521879247joinus.png);
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,3 +69,16 @@ input, textarea{
     text-decoration: none;
     color: #fff;
 }
+@media only screen and (max-width:768px){
+    .banner-head, .joinus-head, .learn-head, .join-now-head, .training-head {
+        color: #484f5b;
+        font-size: 45px;
+        margin-top: 15px;
+    }
+    .joinus{
+        background-position: 0;
+    }
+    .yoga-img img {
+        margin-top: 5px !important;
+    }
+ }
